@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #E8F9FD;
+
+}
+.wrapper {
+  width: 650px;
+  background: #F9EBC8;
+  border-radius: 15px;
+  padding: 30px
+   30px 25px;
+}
+.wrapper header {
+  font-size: 34px;
+  font-weight: 500;
+  text-align: center;
+  color: #0AA1DD;
+}
+.wrapper .content {
+  margin: 32px 0;
+}
+
+.wrapper .quote-palace {
+  display: flex;
+  justify-content:  center;
+}
+.quote-palace i {
+  font-size: 16px;
+}
+.quote-palace i:first-child{
+  margin: 4px 11px 0 0;
+}
+.quote-palace i:last-child{
+  display: flex;
+  align-items: flex-end;
+margin: 0 0 4px 11px;
+}
+.quote-palace .quote {
+  font-size: 22px; text-align: center;
+/*   word-break: break-all; */
+}
+.content .author {
+  display: flex ;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+.author  span:first-child {
+  margin:  -7px 5px 0 0;
+  font-family: Ariel;
+}
+.wrapper .buttons {
+  bordertop: 1px solid #FEFBE7;
+}
+.buttons .features {
+  display: flex;
+  
+margin-top: 22px;
+  align-items: center;
+  justify-content: space-between;
+}
+.features ul {
+  display: flex;
+}
+.features ul li {
+  list-style: none;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  color:#7FB5FF;
+  cursor: pointer;
+  margin: 0 6px;
+  height: 45px;
+  width: 47px;
+  border-radius: 50%;
+  border: 2px solid #205375;
+  transition: all 0.2s ease;
+}
+.features ul li:hover {
+  color: #4D4C7D;
+  background: #E9D5DA;
+}
+
+.features  button {
+  border : none;
+  outline: none;
+  padding: 14px 23px;
+  cursor: pointer;
+  font-style: 16px;
+  background: #827397;
+  border-radius: 30px;
+}
+button.wait..{opacity: 0.6;
+  pointer-events: none;
+  
+}
